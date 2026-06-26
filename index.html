@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Assignment Submission Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h2>College Assignment Submission Tracker</h2>
+
+<input type="text" id="student" placeholder="Student Name">
+<input type="text" id="subject" placeholder="Subject">
+<input type="text" id="title" placeholder="Assignment Title">
+<input type="date" id="date">
+
+<button onclick="addAssignment()">Add</button>
+
+<table>
+<tr>
+<th>ID</th>
+<th>Student</th>
+<th>Subject</th>
+<th>Assignment</th>
+<th>Due Date</th>
+<th>Status</th>
+<th>Delete</th>
+</tr>
+
+<tbody id="table"></tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
